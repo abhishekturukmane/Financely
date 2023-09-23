@@ -1,0 +1,49 @@
+.wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:90vh;
+} 
+.charts-Analytics
+{
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    width: 59%;
+    height:auto;
+    
+    
+}
+canvas{
+    width: 100%;
+}
+/* .charts-wrapper{
+    justify-content: space-between;
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    width: 94%;
+}    */
+.analytics{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spendings-chart{
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    width: 25%;
+    height:auto;
+}
+.charts-Analytics h2 , .spendings-chart h2{
+    margin-top: -3px;
+}
